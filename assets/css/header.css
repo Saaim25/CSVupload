@@ -1,0 +1,49 @@
+/* Navbar styles */
+.navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  background-image: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  color: linear-gradient(to right, #3807d6, #dc4e4e;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+  /* Add custom styles for the navbar toggler icon if needed */
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f8f9fa;
+}
